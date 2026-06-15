@@ -128,3 +128,16 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 - Configure anti-spoofing policies to detect domains with the similar names (detect typosquatting) thereby promoting Domain Similarity Protection.
 - Search across the organization to see if emails were received by other recipients from either the sender IP 185.220.101.55 or domain ‘sh4repoint-pkwork.xyz’.
 - Conduct Phishing campaigns across the organization making employees aware of such instances and how they can avoid falling prey to such social engineering attacks.
+
+## Project Summary:
+By completing this project, I can now:
+- Deploy and configure Microsoft Sentinel.
+- Connect Microsoft Defender XDR data sources.
+- Create custom KQL queries for threat hunting.
+- Build Sentinel workbooks and dashboards.
+- Create detection rules for security monitoring.
+- Investigate phishing incidents using log data and threat intelligence.
+- Use bookmarks and incidents to support SOC workflows.
+
+## Most Impactful Learning Experience:
+The phishing investigation provided the most realistic SOC experience by combining threat hunting, log analysis, threat intelligence validation, incident creation, and remediation recommendations into a single workflow.
