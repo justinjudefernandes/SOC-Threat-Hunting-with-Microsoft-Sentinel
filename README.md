@@ -10,21 +10,21 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 #### Tools Used:
 - Microsoft Azure 
 - Microsoft Sentinel 
-•  Log Analytics Workspace 
-•  Microsoft Defender XDR 
-•  Kusto Query Language (KQL) 
-•  Microsoft Sentinel Workbooks 
-•  AbuseIPDB
+- Log Analytics Workspace 
+- Microsoft Defender XDR 
+- Kusto Query Language (KQL) 
+- Microsoft Sentinel Workbooks 
+- AbuseIPDB
 
 #### Skill Developed:
-•  SIEM deployment and configuration 
-•  Threat hunting 
-•  Log analysis 
-•  KQL query development 
-•  Security monitoring 
-•  Dashboard creation 
-•  Incident investigation 
-•  Phishing analysis
+- SIEM deployment and configuration
+- Threat hunting
+- Log analysis
+- KQL query development
+- Security monitoring
+- Dashboard creation
+- Incident investigation
+- Phishing analysis
 
 #### Key Deliverables:
 •  Microsoft Sentinel deployment 
