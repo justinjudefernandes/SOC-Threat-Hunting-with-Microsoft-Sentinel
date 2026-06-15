@@ -114,6 +114,7 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 - Moreover, the URL is a classic example of ‘typosquatting’ where the word sharepoint is purposely misspelled as sh4repoint.
 - A deeper analysis is underway to identify if the link and the attachment were accessed and if so, what extent of data has been compromised.
 
+### Incident Analysis:
 - WHO – Sender Address: 185.220.101.55 – flagged as malicious on AbuseIPDB.
 - WHAT – Phishing email sent by sharepoint-notify@sh4repoint-pkwork.xyz with URL https://sh4repoint-pkwork.xyz/download/board-agenda and attachment Q4-Board-Meeting-Agenda.docx
 - WHEN: Based on our findings, the email was sent on 2026-06-11 07:17:42 UTC & was allowed to pass through although it failed to meet the email security requirements.
