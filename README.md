@@ -27,9 +27,9 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Phishing analysis
 
 #### Key Deliverables:
-•  Microsoft Sentinel deployment 
-•  Custom workbook/dashboard creation 
-•  Detection rule development 
-•  Threat hunting queries 
-•  Phishing investigation report 
-•  Incident creation and management
+- Microsoft Sentinel deployment
+- Custom workbook/dashboard creation
+- Detection rule development
+- Threat hunting queries
+- Phishing investigation report
+- Incident creation and management
