@@ -4,10 +4,10 @@
 
 The SOC Threat Hunting with Microsoft Sentinel project documents my participation in the Day 9 Mini Project of the 30-Day MyDFIR Microsoft Challenge. The objective was to build and configure a Microsoft Sentinel environment, perform threat hunting activities, develop KQL queries, create security dashboards, and investigate a phishing incident. Through this project, I aimed to strengthen my SOC analyst skills by working with Microsoft security technologies and simulating real-world security monitoring and incident response activities.
 
-### Project Overview
+## Project Overview
 This project focuses on deploying and configuring a Microsoft Sentinel environment within Microsoft Azure and using it to investigate security events and phishing-related activity.
 
-#### Tools Used:
+### Tools Used:
 - Microsoft Azure 
 - Microsoft Sentinel 
 - Log Analytics Workspace 
@@ -16,7 +16,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Microsoft Sentinel Workbooks 
 - AbuseIPDB
 
-#### Skill Developed:
+### Skill Developed:
 - SIEM deployment and configuration
 - Threat hunting
 - Log analysis
@@ -26,10 +26,32 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Incident investigation
 - Phishing analysis
 
-#### Key Deliverables:
+### Key Deliverables:
 - Microsoft Sentinel deployment
 - Custom workbook/dashboard creation
 - Detection rule development
 - Threat hunting queries
 - Phishing investigation report
 - Incident creation and management
+
+## Steps Performed:
+- Created Azure resources including: 
+  - Resource Group 
+  - Log Analytics Workspace 
+•	Microsoft Sentinel 
+•  Deployed the Microsoft Sentinel Training Lab solution. 
+•  Connected Microsoft Defender XDR to Microsoft Sentinel. 
+•  Developed KQL queries to: 
+•	Identify malicious sender domains. 
+•	Analyze Azure activity logs. 
+•	Investigate error events. 
+•  Created a custom Sentinel Workbook containing: 
+•	Activity Volume 
+•	Top 5 Failed User Logins 
+•	Malicious Sender Domains 
+•	Successful Activities (48-hour view) 
+•  Created a detection rule to identify accounts with excessive failed logons using Event ID 4625. 
+•  Investigated a phishing email that was marked as phishing but still allowed into the environment. 
+•  Created bookmarks and converted findings into a security incident for further analysis
+
+
