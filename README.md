@@ -7,4 +7,29 @@ The SOC Threat Hunting with Microsoft Sentinel project documents my participatio
 ### Project Overview
 This project focuses on deploying and configuring a Microsoft Sentinel environment within Microsoft Azure and using it to investigate security events and phishing-related activity.
 
-#### Tools Used
+#### Tools Used:
+•  Microsoft Azure 
+•  Microsoft Sentinel 
+•  Log Analytics Workspace 
+•  Microsoft Defender XDR 
+•  Kusto Query Language (KQL) 
+•  Microsoft Sentinel Workbooks 
+•  AbuseIPDB
+
+#### Skill Developed:
+•  SIEM deployment and configuration 
+•  Threat hunting 
+•  Log analysis 
+•  KQL query development 
+•  Security monitoring 
+•  Dashboard creation 
+•  Incident investigation 
+•  Phishing analysis
+
+#### Key Deliverables:
+•  Microsoft Sentinel deployment 
+•  Custom workbook/dashboard creation 
+•  Detection rule development 
+•  Threat hunting queries 
+•  Phishing investigation report 
+•  Incident creation and management
