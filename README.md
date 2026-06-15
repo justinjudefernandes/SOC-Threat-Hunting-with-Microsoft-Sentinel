@@ -90,29 +90,17 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
   | sort by ThreatConfidence
 
 #### Indicators Identified:
-- Time: 2026-06-11T07:17:42 UTC
-- Sender IP: 185.220.101.55
-- Send Address: sharepoint-notify@sh4repoint-pkwork.xyz
-- Sender Domain: sh4repoint-pkwork.xyz
+- IP: 185.220.101.55
+- Domain: sh4repoint-pkwork.xyz
+- Recipient: ceo@pkwork.onmicrosoft.com
 - Subject: SharePoint: Board meeting documents shared with you
-- URL: https://sh4repoint-pkwork.xyz/download/board-agenda
-- Threat Confidence: 93
-- Recipient Address: ceo@pkwork.onmicrosoft.com
-- Recipient Domain: pkwork.onmicrosoft.com
 - Attachment: Q4-Board-Meeting-Agenda.docx
-- Threat Verdict: Phishing
-- Action: Allow
-- SPF: Fail
-- DKIM: None
-- DMARC: Fail
+- Verdict: Phishing (Confidence: 93)
+- Email Authentication: SPF Fail | DKIM None | DMARC Fail
+- Delivery Status: Allowed
 
 #### Investigation:
-- On 2026-06-11 07:17:42 UTC, an email was received from the email ID sharepoint-notify@sh4repoint-pkwork.xyz with the sender IP being 185.220.101.55.
-- This email contained a URL https://sh4repoint-pkwork.xyz/download/board-agenda along with a Word document as an attachment Q4-Board-Meeting-Agenda.docx.
-- Based on our investigation, the Sender IP 185.220.101.55 was flagged as malicious (100% abuse) on AbuseIPDB and the email was allowed to pass through even though it was flagged as phishing with a threat score of 93.
-- On further investigating, we noticed that both SPF and DMARC failed, while DKIM returned a value of none.
-- Moreover, the URL is a classic example of ‘typosquatting’ where the word sharepoint is purposely misspelled as sh4repoint.
-- A deeper analysis is underway to identify if the link and the attachment were accessed and if so, what extent of data has been compromised.
+A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-notify@sh4repoint-pkwork.xyz, originating from the malicious IP 185.220.101.55 (100% abuse on AbuseIPDB). The message included a typosquatted URL (sh4repoint-pkwork.xyz/download/board-agenda) and a Word attachment (Q4-Board-Meeting-Agenda.docx). Email authentication checks failed (SPF/DMARC failed, DKIM none), yet the email was still delivered despite a phishing threat score of 93. An investigation is ongoing to determine whether the link or attachment was accessed and to assess any potential data exposure.
 
 #### Incident Analysis:
 - WHO – Sender Address: 185.220.101.55 – flagged as malicious on AbuseIPDB.
