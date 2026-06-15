@@ -9,7 +9,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 
 #### Tools Used:
 - Microsoft Azure 
-•  Microsoft Sentinel 
+- Microsoft Sentinel 
 •  Log Analytics Workspace 
 •  Microsoft Defender XDR 
 •  Kusto Query Language (KQL) 
