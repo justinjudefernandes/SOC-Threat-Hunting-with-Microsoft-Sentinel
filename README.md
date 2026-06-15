@@ -54,7 +54,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Investigated a phishing email that was marked as phishing but still allowed into the environment. 
 - Created bookmarks and converted findings into a security incident for further analysis.
 
-### Key Findings:
+#### Key Findings:
 - A phishing email successfully bypassed email controls despite:
    - SPF failure 
    - DMARC failure 
@@ -63,7 +63,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - The sender domain used typosquatting techniques to impersonate Microsoft SharePoint. 
 - The sender IP had a malicious reputation according to threat intelligence sources.
 
-### What I Learned:
+#### What I Learned:
 - How Microsoft Sentinel integrates with Microsoft Defender XDR.
 - How to build effective KQL queries for threat hunting.
 - How workbooks improve visibility into security data.
@@ -71,7 +71,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - How phishing campaigns can bypass security controls when policies are not properly configured.
 - How bookmarks and incidents support SOC investigations.
 
-### What I Would Do Differently in a Production SOC:
+#### What I Would Do Differently in a Production SOC:
 - Enable stricter email filtering and anti-spoofing policies.
 - Configure automatic quarantine actions for high-confidence phishing emails.
 - Implement domain similarity protection.
@@ -80,16 +80,16 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 
 ## Investigation Report:
 
-### Phishing Email Investigation:
+#### Phishing Email Investigation:
 A phishing email impersonating SharePoint was delivered to an executive mailbox despite multiple authentication failures and a phishing verdict.
 
-### Query Used:
+#### Query Used:
 - MailGuard365_Threats_CL
   | where ThreatVerdict contains "phish" and Direction == "Inbound"
   | where Action contains "Allow" and SPFResult == "Fail" and DKIMResult == "None" and DMARCResult == "Fail"
   | sort by ThreatConfidence
 
-### Indicators Identified:
+#### Indicators Identified:
 - Time: 2026-06-11T07:17:42 UTC
 - Sender IP: 185.220.101.55
 - Send Address: sharepoint-notify@sh4repoint-pkwork.xyz
@@ -106,7 +106,7 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 - DKIM: None
 - DMARC: Fail
 
-### Investigation:
+#### Investigation:
 - On 2026-06-11 07:17:42 UTC, an email was received from the email ID sharepoint-notify@sh4repoint-pkwork.xyz with the sender IP being 185.220.101.55.
 - This email contained a URL https://sh4repoint-pkwork.xyz/download/board-agenda along with a Word document as an attachment Q4-Board-Meeting-Agenda.docx.
 - Based on our investigation, the Sender IP 185.220.101.55 was flagged as malicious (100% abuse) on AbuseIPDB and the email was allowed to pass through even though it was flagged as phishing with a threat score of 93.
@@ -114,7 +114,7 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 - Moreover, the URL is a classic example of ‘typosquatting’ where the word sharepoint is purposely misspelled as sh4repoint.
 - A deeper analysis is underway to identify if the link and the attachment were accessed and if so, what extent of data has been compromised.
 
-### Incident Analysis:
+#### Incident Analysis:
 - WHO – Sender Address: 185.220.101.55 – flagged as malicious on AbuseIPDB.
 - WHAT – Phishing email sent by sharepoint-notify@sh4repoint-pkwork.xyz with URL https://sh4repoint-pkwork.xyz/download/board-agenda and attachment Q4-Board-Meeting-Agenda.docx
 - WHEN: Based on our findings, the email was sent on 2026-06-11 07:17:42 UTC & was allowed to pass through although it failed to meet the email security requirements.
@@ -122,7 +122,7 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 - WHY: Though the exact intent of this phishing email was not specified, we can quite certainly say that the email was intended to either capture the CEO’s credentials or to download a virus that would compromise the CEO’s system.
 - HOW: The email was allowed to pass through since the probably because the email security gateway was not configured to quarantine or block.
 
-### Recommendations:
+#### Recommendations:
 - With reliance on Threat Intelligence Platforms, search for the sender IP and domain to see if it was previously flagged as malicious – on this case the sender IP is 185.220.101.55 which was marked by AbuseIPDB as malicious.
 - Configure the email security gateway to quarantine or block any incoming emails originating from domains which use the ‘typosquatting’ technique – in this case ‘sh4repoint-pkwork.xyz’.
 - Configure anti-spoofing policies to detect domains with the similar names (detect typosquatting) thereby promoting Domain Similarity Protection.
