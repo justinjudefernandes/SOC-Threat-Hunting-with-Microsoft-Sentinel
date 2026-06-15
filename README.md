@@ -83,6 +83,12 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 ### Phishing Email Investigation:
 A phishing email impersonating SharePoint was delivered to an executive mailbox despite multiple authentication failures and a phishing verdict.
 
+### Query Used:
+- MailGuard365_Threats_CL
+  | where ThreatVerdict contains "phish" and Direction == "Inbound"
+  | where Action contains "Allow" and SPFResult == "Fail" and DKIMResult == "None" and DMARCResult == "Fail"
+  | sort by ThreatConfidence
+
 ### Indicators Identified:
 - Time: 2026-06-11T07:17:42 UTC
 - Sender IP: 185.220.101.55
@@ -108,10 +114,16 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 - Moreover, the URL is a classic example of ‘typosquatting’ where the word sharepoint is purposely misspelled as sh4repoint.
 - A deeper analysis is underway to identify if the link and the attachment were accessed and if so, what extent of data has been compromised.
 
-WHO – Sender Address: 185.220.101.55 – flagged as malicious on AbuseIPDB.
-WHAT – Phishing email sent by sharepoint-notify@sh4repoint-pkwork.xyz with URL https://sh4repoint-pkwork.xyz/download/board-agenda and attachment Q4-Board-Meeting-Agenda.docx
-WHEN: Based on our findings, the email was sent on 2026-06-11 07:17:42 UTC & was allowed to pass through although it failed to meet the email security requirements.
-WHERE: The email was sent to ceo@pkwork.onmicrosoft.com with subject SharePoint: Board meeting documents shared with you.
-WHY: Though the exact intent of this phishing email was not specified, we can quite certainly say that the email was intended to either capture the CEO’s credentials or to download a virus that would compromise the CEO’s system.
-HOW: The email was allowed to pass through since the probably because the email security gateway was not configured to quarantine or block.
+- WHO – Sender Address: 185.220.101.55 – flagged as malicious on AbuseIPDB.
+- WHAT – Phishing email sent by sharepoint-notify@sh4repoint-pkwork.xyz with URL https://sh4repoint-pkwork.xyz/download/board-agenda and attachment Q4-Board-Meeting-Agenda.docx
+- WHEN: Based on our findings, the email was sent on 2026-06-11 07:17:42 UTC & was allowed to pass through although it failed to meet the email security requirements.
+- WHERE: The email was sent to ceo@pkwork.onmicrosoft.com with subject SharePoint: Board meeting documents shared with you.
+- WHY: Though the exact intent of this phishing email was not specified, we can quite certainly say that the email was intended to either capture the CEO’s credentials or to download a virus that would compromise the CEO’s system.
+- HOW: The email was allowed to pass through since the probably because the email security gateway was not configured to quarantine or block.
 
+### Recommendations:
+- With reliance on Threat Intelligence Platforms, search for the sender IP and domain to see if it was previously flagged as malicious – on this case the sender IP is 185.220.101.55 which was marked by AbuseIPDB as malicious.
+- Configure the email security gateway to quarantine or block any incoming emails originating from domains which use the ‘typosquatting’ technique – in this case ‘sh4repoint-pkwork.xyz’.
+- Configure anti-spoofing policies to detect domains with the similar names (detect typosquatting) thereby promoting Domain Similarity Protection.
+- Search across the organization to see if emails were received by other recipients from either the sender IP 185.220.101.55 or domain ‘sh4repoint-pkwork.xyz’.
+- Conduct Phishing campaigns across the organization making employees aware of such instances and how they can avoid falling prey to such social engineering attacks.
