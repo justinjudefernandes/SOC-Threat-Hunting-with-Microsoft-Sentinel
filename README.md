@@ -39,8 +39,8 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
    - Resource Group 
    - Log Analytics Workspace 
    - Microsoft Sentinel 
-- Deployed the Microsoft Sentinel Training Lab solution
-- Connected Microsoft Defender XDR to Microsoft Sentinel
+- Deployed the Microsoft Sentinel Training Lab solution.
+- Connected Microsoft Defender XDR to Microsoft Sentinel.
 - Developed KQL queries to: 
    - Identify malicious sender domains
    - Analyze Azure activity logs
@@ -50,8 +50,8 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
    - Top 5 Failed User Logins 
    - Malicious Sender Domains
    - Successful Activities
-•  Created a detection rule to identify accounts with excessive failed logons using Event ID 4625.
-•  Investigated a phishing email that was marked as phishing but still allowed into the environment. 
-•  Created bookmarks and converted findings into a security incident for further analysis.
+- Created a detection rule to identify accounts with excessive failed logons using Event ID 4625.
+- Investigated a phishing email that was marked as phishing but still allowed into the environment. 
+- Created bookmarks and converted findings into a security incident for further analysis.
 
 
