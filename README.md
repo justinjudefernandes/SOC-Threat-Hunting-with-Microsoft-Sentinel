@@ -114,10 +114,10 @@ A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-not
 
 #### Recommendations:
 - Use Threat Intelligence to verify sender IPs/domains; in this case, 185.220.101.55 was confirmed malicious.
-- Configure the email gateway to block typosquatted domains such as sh4repoint-pkwork.xyz.
+- Delete the identified phishing email and configure email security controls to automatically delete or quarantine similar phishing emails in the future.
 - Enable domain similarity protection to detect spoofed or look‑alike domains.
 - Search the organization for any other emails from 185.220.101.55 or sh4repoint-pkwork.xyz.
-- Run phishing awareness training to educate employees on identifying and avoiding such attacks.
+- Conduct targeted phishing awareness training focused on identifying Microsoft 365 and SharePoint impersonation emails, recognizing typosquatted domains, verifying unexpected file-sharing requests, avoiding suspicious links and attachments, promptly reporting phishing attempts, and understanding the risks of credential theft, malware, and business email compromise (BEC).
 
 ## Project Summary:
 By completing this project, I can now:
