@@ -59,6 +59,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="691" height="264" alt="image" src="https://github.com/user-attachments/assets/96517f56-2665-4ca4-8607-930a36b54324" />
 <img width="691" height="240" alt="image" src="https://github.com/user-attachments/assets/9e4bc1bc-a288-48d8-a219-7b11f668fe3d" />
 
+
 - Created a custom Sentinel Workbook containing: 
    - Activity Volume
    - Top 5 Failed User Logins 
