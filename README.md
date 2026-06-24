@@ -66,6 +66,12 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
    - Malicious Sender Domains
    - Successful Activities
 <img width="752" height="335" alt="image" src="https://github.com/user-attachments/assets/c27e33db-3878-4e83-8ef5-f4dbf229e7cf" />
+<img width="752" height="215" alt="image" src="https://github.com/user-attachments/assets/8be7fdfa-674a-49cf-9243-3e4438782f4b" />
+<img width="750" height="259" alt="image" src="https://github.com/user-attachments/assets/2aa9a5e9-e694-4a6f-99c0-8737cf53db0e" />
+<img width="749" height="270" alt="image" src="https://github.com/user-attachments/assets/6e9be7fc-8329-45be-a95d-13b9dafd8166" />
+
+
+
 
 
 
