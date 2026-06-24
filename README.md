@@ -55,11 +55,23 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
    - Identify malicious sender domains
    - Analyze Azure activity logs
    - Investigate error events
+<img width="683" height="411" alt="image" src="https://github.com/user-attachments/assets/6b1b4b28-866e-49b2-a63d-1495c551a891" />
+<img width="691" height="264" alt="image" src="https://github.com/user-attachments/assets/96517f56-2665-4ca4-8607-930a36b54324" />
+<img width="691" height="240" alt="image" src="https://github.com/user-attachments/assets/9e4bc1bc-a288-48d8-a219-7b11f668fe3d" />
+
 - Created a custom Sentinel Workbook containing: 
-   - Activity Volume 
+   - Activity Volume
    - Top 5 Failed User Logins 
    - Malicious Sender Domains
    - Successful Activities
+<img width="975" height="432" alt="image" src="https://github.com/user-attachments/assets/7f1ca0bb-5604-4b0c-9696-455900b54bd8" />
+<img width="975" height="275" alt="image" src="https://github.com/user-attachments/assets/29892145-5c1f-4956-8603-057dce6a022d" />
+<img width="975" height="332" alt="image" src="https://github.com/user-attachments/assets/81fc00d9-d054-48cb-8e16-2dfea23b98b2" />
+<img width="975" height="348" alt="image" src="https://github.com/user-attachments/assets/75d51c47-c778-41b4-94f5-608e35d1cf1f" />
+
+
+
+
 - Created a detection rule to identify accounts with excessive failed logons using Event ID 4625.
 - Investigated a phishing email that was marked as phishing but still allowed into the environment. 
 - Created bookmarks and converted findings into a security incident for further analysis.
