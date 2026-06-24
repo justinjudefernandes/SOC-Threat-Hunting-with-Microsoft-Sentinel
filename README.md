@@ -125,7 +125,7 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 
 #### Indicators Identified:
 - IP: 185.220.101.55
-- Domain: sh4repoint-pkwork.xyz
+- Domain: sh4repoint-pkwork[.]xyz
 - Recipient: ceo@pkwork.onmicrosoft.com
 - Subject: SharePoint: Board meeting documents shared with you
 - Attachment: Q4-Board-Meeting-Agenda.docx
@@ -134,11 +134,13 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 - Delivery Status: Allowed
 
 #### Investigation:
-A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-notify@sh4repoint-pkwork.xyz, originating from the malicious IP 185.220.101.55 (100% abuse on AbuseIPDB). The message included a typosquatted URL (sh4repoint-pkwork.xyz/download/board-agenda) and a Word attachment (Q4-Board-Meeting-Agenda.docx). Email authentication checks failed (SPF/DMARC failed, DKIM none), yet the email was still delivered despite a phishing threat score of 93. An investigation is ongoing to determine whether the link or attachment was accessed and to assess any potential data exposure.
+A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-notify@sh4repoint-pkwork.xyz, originating from the malicious IP 185.220.101.55 (100% abuse on AbuseIPDB). The message included a typosquatted URL (hxxp[://]sh4repoint-pkwork[.]xyz/download/board-agenda) and a Word attachment (Q4-Board-Meeting-Agenda.docx). Email authentication checks failed (SPF/DMARC failed, DKIM none), yet the email was still delivered despite a phishing threat score of 93. An investigation is ongoing to determine whether the link or attachment was accessed and to assess any potential data exposure.
+<img width="501" height="428" alt="image" src="https://github.com/user-attachments/assets/b2b77daa-7009-497a-8ff9-1a268660d5fc" />
+<img width="1239" height="647" alt="image" src="https://github.com/user-attachments/assets/92f4a39a-9506-452d-a243-0b2f7fe7a7b9" />
 
 #### Incident Analysis:
 - WHO: Malicious sender IP 185.220.101.55 (100% abuse on AbuseIPDB).
-- WHAT: Phishing email from sharepoint-notify@sh4repoint-pkwork.xyz containing a typosquatted URL and the attachment Q4‑Board‑Meeting‑Agenda.docx.
+- WHAT: Phishing email from sharepoint-notify@sh4repoint-pkwork[.]xyz containing a typosquatted URL and the attachment Q4‑Board‑Meeting‑Agenda.docx.
 - WHEN: Sent on 2026‑06‑11 07:17:42 UTC and delivered despite failing email security checks.
 - WHERE: Targeted ceo@pkwork.onmicrosoft.com with subject “SharePoint: Board meeting documents shared with you.”  
 - WHY: Likely aimed at credential theft or delivering malware to compromise the CEO’s system.
