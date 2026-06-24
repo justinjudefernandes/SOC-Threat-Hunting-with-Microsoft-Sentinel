@@ -115,7 +115,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 A phishing email impersonating SharePoint was delivered to an executive mailbox despite multiple authentication failures and a phishing verdict.
 
 #### Query Used:
-- MailGuard365_Threats_CL
+- MailGuard365_Threats_CL     
   | where ThreatVerdict contains "phish" and Direction == "Inbound"
   | where Action contains "Allow" and SPFResult == "Fail" and DKIMResult == "None" and DMARCResult == "Fail"
   | sort by ThreatConfidence
