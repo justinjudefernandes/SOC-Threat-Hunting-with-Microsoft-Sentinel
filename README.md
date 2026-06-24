@@ -7,7 +7,7 @@ The SOC Threat Hunting with Microsoft Sentinel project documents my participatio
 This project focuses on deploying and configuring a Microsoft Sentinel environment within Microsoft Azure and using it to investigate security events and phishing-related activity.
 
 ## Lab Setup:
-<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/064808a1-ffdb-4cc8-b125-cb78a1eedc51" />
+<img width="450" height="600" alt="image" src="https://github.com/user-attachments/assets/064808a1-ffdb-4cc8-b125-cb78a1eedc51" />
 
 ### Tools Used:
 - Microsoft Azure 
