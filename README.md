@@ -76,6 +76,8 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 
 - Created bookmarks and converted findings into a security incident for further analysis.
 <img width="749" height="413" alt="image" src="https://github.com/user-attachments/assets/44746922-2fa1-4d4f-9bb0-4982e590cd41" />
+<img width="750" height="408" alt="image" src="https://github.com/user-attachments/assets/65103eb7-8425-4c45-85ea-32c971982e3c" />
+<img width="749" height="414" alt="image" src="https://github.com/user-attachments/assets/b3e3b924-5344-4078-9c11-06d6079ab9f5" />
 
 
 #### Key Findings:
