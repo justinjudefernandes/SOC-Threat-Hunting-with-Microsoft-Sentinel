@@ -134,7 +134,7 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 - Delivery Status: Allowed
 
 #### Investigation:
-A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-notify@sh4repoint-pkwork.xyz, originating from the malicious IP 185.220.101.55 (100% abuse on AbuseIPDB). The message included a typosquatted URL (hxxp[://]sh4repoint-pkwork[.]xyz/download/board-agenda) and a Word attachment (Q4-Board-Meeting-Agenda.docx). Email authentication checks failed (SPF/DMARC failed, DKIM none), yet the email was still delivered despite a phishing threat score of 93. An investigation is ongoing to determine whether the link or attachment was accessed and to assess any potential data exposure.
+A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-notify@h4repoint-pkwork[.]xyz, originating from the malicious IP 185.220.101.55 (100% abuse on AbuseIPDB). The message included a typosquatted URL (hxxp[://]sh4repoint-pkwork[.]xyz/download/board-agenda) and a Word attachment (Q4-Board-Meeting-Agenda.docx). Email authentication checks failed (SPF/DMARC failed, DKIM none), yet the email was still delivered despite a phishing threat score of 93. An investigation is ongoing to determine whether the link or attachment was accessed and to assess any potential data exposure.
 
 <img width="501" height="428" alt="image" src="https://github.com/user-attachments/assets/b2b77daa-7009-497a-8ff9-1a268660d5fc" />
 <img width="1239" height="647" alt="image" src="https://github.com/user-attachments/assets/92f4a39a-9506-452d-a243-0b2f7fe7a7b9" />
