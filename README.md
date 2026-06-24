@@ -41,6 +41,21 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
    1) Resource Group
 <img width="807" height="455" alt="image" src="https://github.com/user-attachments/assets/b8613e4d-36e6-41a9-baa9-aff1d880788a" />
 
+<ul>
+  <li>Created Azure resources including:
+    <ol type="i">
+      <li>Resource Group</li>
+<img width="807" height="455" alt="image" src="https://github.com/user-attachments/assets/b8613e4d-36e6-41a9-baa9-aff1d880788a" />
+
+      <li>Log Analytics Workspace</li>
+<img width="807" height="455" alt="image" src="https://github.com/user-attachments/assets/b8613e4d-36e6-41a9-baa9-aff1d880788a" />
+
+      <li>Microsoft Sentinel</li>
+      <img src="image3.png" width="800">
+    </ol>
+  </li>
+</ul>
+
    2) Log Analytics Workspace
 <img width="800" height="437" alt="image" src="https://github.com/user-attachments/assets/41c15be4-35b3-4c92-9f79-c7c6d9417fb7" />
 
