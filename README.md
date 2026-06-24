@@ -70,13 +70,6 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="750" height="259" alt="image" src="https://github.com/user-attachments/assets/2aa9a5e9-e694-4a6f-99c0-8737cf53db0e" />
 <img width="749" height="270" alt="image" src="https://github.com/user-attachments/assets/6e9be7fc-8329-45be-a95d-13b9dafd8166" />
 
-
-
-
-
-
-
-
 - Created a detection rule to identify accounts with excessive failed logons using Event ID 4625.
 - Investigated a phishing email that was marked as phishing but still allowed into the environment. 
 - Created bookmarks and converted findings into a security incident for further analysis.
