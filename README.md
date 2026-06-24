@@ -38,8 +38,8 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 
 ## Steps Performed:
 - Created Azure resources including: 
-   - Resource Group <img width="807" height="455" alt="image" src="https://github.com/user-attachments/assets/b8613e4d-36e6-41a9-baa9-aff1d880788a" />
-
+   - Resource Group
+<img width="807" height="455" alt="image" src="https://github.com/user-attachments/assets/b8613e4d-36e6-41a9-baa9-aff1d880788a" />
    - Log Analytics Workspace 
    - Microsoft Sentinel 
 - Deployed the Microsoft Sentinel Training Lab solution.
