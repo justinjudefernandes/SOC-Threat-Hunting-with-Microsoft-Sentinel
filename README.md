@@ -49,6 +49,9 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="707" height="386" alt="image" src="https://github.com/user-attachments/assets/7a0cae76-8002-49e1-8dd1-79677f96b14d" />
 
 - Connected Microsoft Defender XDR to Microsoft Sentinel.
+<img width="1270" height="698" alt="image" src="https://github.com/user-attachments/assets/7f0e18f7-4e9d-4e5e-8cb5-1aafea05cd8f" />
+<img width="1277" height="692" alt="image" src="https://github.com/user-attachments/assets/1dad9cb1-a514-4c1b-bb0d-d7977877aa1e" />
+
 
 
 - Developed KQL queries to: 
