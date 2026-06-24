@@ -73,7 +73,14 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="750" height="259" alt="image" src="https://github.com/user-attachments/assets/2aa9a5e9-e694-4a6f-99c0-8737cf53db0e" />
 <img width="749" height="270" alt="image" src="https://github.com/user-attachments/assets/6e9be7fc-8329-45be-a95d-13b9dafd8166" />
 
-- Created a detection rule to identify accounts with excessive failed logons using Event ID 4625.
+- Created a detection rule named 'MyDFIR-Justin-FailedLogonAlert' to identify accounts with excessive failed logons using Event ID 4625 using query:
+  - SecurityEvent
+    | where EventID == "4625"
+    | summarize FailedLogons = count() by Account
+    | where FailedLogons >= 1000
+<img width="703" height="386" alt="image" src="https://github.com/user-attachments/assets/262fc0a0-8e10-46bd-8c31-30a0b5bc15b6" />
+<img width="707" height="404" alt="image" src="https://github.com/user-attachments/assets/f93c95cf-9e47-4cb0-a594-d530540b03fc" />
+
 - Investigated a phishing email that was marked as phishing but still allowed into the environment.
 <img width="738" height="384" alt="image" src="https://github.com/user-attachments/assets/031e615b-4443-4c2c-bc6e-3e62d9a13b4a" />
 
