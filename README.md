@@ -120,7 +120,7 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
   | where ThreatVerdict contains "phish" and Direction == "Inbound"
   | where Action contains "Allow" and SPFResult == "Fail" and DKIMResult == "None" and DMARCResult == "Fail"
   | sort by ThreatConfidence
-'''
+```
 <img width="758" height="420" alt="image" src="https://github.com/user-attachments/assets/a788bad8-b715-4eff-b256-0f427dfbb744" />
 
 #### Indicators Identified:
