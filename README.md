@@ -122,7 +122,6 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 
 <img width="758" height="420" alt="image" src="https://github.com/user-attachments/assets/a788bad8-b715-4eff-b256-0f427dfbb744" />
 
-
 #### Indicators Identified:
 - IP: 185.220.101.55
 - Domain: sh4repoint-pkwork[.]xyz
@@ -139,7 +138,7 @@ A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-not
 <img width="501" height="428" alt="image" src="https://github.com/user-attachments/assets/b2b77daa-7009-497a-8ff9-1a268660d5fc" />
 <img width="1239" height="647" alt="image" src="https://github.com/user-attachments/assets/92f4a39a-9506-452d-a243-0b2f7fe7a7b9" />
 
-#### Incident Analysis:
+#### Triage (5W1H Analysis):
 - WHO: Malicious sender IP 185.220.101.55 (100% abuse on AbuseIPDB).
 - WHAT: Phishing email from sharepoint-notify@sh4repoint-pkwork[.]xyz containing a typosquatted URL and the attachment Q4‑Board‑Meeting‑Agenda.docx.
 - WHEN: Sent on 2026‑06‑11 07:17:42 UTC and delivered despite failing email security checks.
