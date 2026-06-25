@@ -145,22 +145,25 @@ A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-not
 - WHY: Likely aimed at credential theft or delivering malware to compromise the CEO’s system.
 - HOW: Email passed through because the security gateway was likely not configured to block or quarantine such threats.
 
-#### 💡 Recommendations:
-- Use Threat Intelligence to verify sender IPs/domains; in this case, 185.220.101.55 was confirmed malicious.
-- Delete the identified phishing email and configure email security controls to automatically delete or quarantine similar phishing emails in the future.
-- Enable domain similarity protection to detect spoofed or look‑alike domains.
-- Search the organization for any other emails from 185.220.101.55 or sh4repoint-pkwork.xyz.
-- Conduct targeted phishing awareness training focused on identifying Microsoft 365 and SharePoint impersonation emails, recognizing typosquatted domains, verifying unexpected file-sharing requests, avoiding suspicious links and attachments, promptly reporting phishing attempts, and understanding the risks of credential theft, malware, and business email compromise (BEC).
+### 🛑 Response Actions:
+- Quarantined and removed the phishing email from the environment.
+- Initiated organization-wide search for related sender IP/domain activity.
+- Blocked malicious IP (185.220.101.55) and typosquatted domain at email gateway level.
+- Elevated incident in Microsoft Sentinel for further SOC tracking and correlation.
+- Validated email security posture and reviewed filtering policy gaps for remediation.
 
-## 📑 Project Summary:
-By completing this project, I can now:
-- Deploy and configure Microsoft Sentinel.
-- Connect Microsoft Defender XDR data sources.
-- Create custom KQL queries for threat hunting.
-- Build Sentinel workbooks and dashboards.
-- Create detection rules for security monitoring.
-- Investigate phishing incidents using log data and threat intelligence.
-- Use bookmarks and incidents to support SOC workflows.
+### 💡 Recommendations:
+- Enforce strict anti-spoofing controls (SPF, DKIM, DMARC enforcement set to reject).
+- Implement automatic quarantine for high-confidence phishing verdicts.
+- Enable domain impersonation and lookalike detection policies in Microsoft Defender for Office 365.
+- Integrate real-time threat intelligence feeds for automated enrichment and blocking.
+- Conduct targeted executive phishing simulations and awareness training.
+- Establish automated Sentinel playbooks for phishing triage and response.
 
-## 🧠 Most Impactful Learning Experience:
-The phishing investigation provided the most realistic SOC experience by combining threat hunting, log analysis, threat intelligence validation, incident creation, and remediation recommendations into a single workflow.
+### 🧠 Lessons Learned:
+Email authentication failures do not guarantee blocking if policies are misconfigured.
+Threat intelligence validation is critical for confirming malicious infrastructure.
+Sentinel workbooks significantly improve visibility and SOC decision-making speed.
+KQL-driven hunting is essential for uncovering hidden or correlated threats.
+Phishing investigations require cross-correlation between email, identity, and endpoint telemetry.
+Effective SOC operations depend on automation, enrichment, and consistent alert tuning
