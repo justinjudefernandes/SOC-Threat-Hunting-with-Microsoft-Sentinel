@@ -147,13 +147,13 @@ A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-not
 
 ### 🛑 Response Actions:
 - Quarantined and removed the phishing email from the environment.
-- Initiated organization-wide search for related sender IP/domain activity.
-- Blocked malicious IP (185.220.101.55) and typosquatted domain at email gateway level.
-- Elevated incident in Microsoft Sentinel for further SOC tracking and correlation.
-- Validated email security posture and reviewed filtering policy gaps for remediation.
+- Initiated an organization-wide search for related sender IP/domain activity.
+- Blocked the malicious IP (185.220.101.55) and the typosquatted domain at email gateway level.
+- Elevated the incident in Microsoft Sentinel for further SOC tracking and correlation.
+- Validated the email security posture and reviewed filtering policy gaps for remediation.
 
 ### 💡 Recommendations:
-- Enforce strict anti-spoofing controls (SPF, DKIM, DMARC enforcement set to reject).
+- Enforce strict anti-spoofing controls - SPF, DKIM, DMARC enforcement set to reject wherever necessary.
 - Implement automatic quarantine for high-confidence phishing verdicts.
 - Enable domain impersonation and lookalike detection policies in Microsoft Defender for Office 365.
 - Integrate real-time threat intelligence feeds for automated enrichment and blocking.
@@ -161,9 +161,9 @@ A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-not
 - Establish automated Sentinel playbooks for phishing triage and response.
 
 ### 🧠 Lessons Learned:
-Email authentication failures do not guarantee blocking if policies are misconfigured.
-Threat intelligence validation is critical for confirming malicious infrastructure.
-Sentinel workbooks significantly improve visibility and SOC decision-making speed.
-KQL-driven hunting is essential for uncovering hidden or correlated threats.
-Phishing investigations require cross-correlation between email, identity, and endpoint telemetry.
-Effective SOC operations depend on automation, enrichment, and consistent alert tuning
+- Email authentication failures do not guarantee blocking if policies are misconfigured.
+- Threat intelligence validation is critical for confirming malicious infrastructure.
+- Sentinel workbooks significantly improve visibility and SOC decision-making speed.
+- KQL-driven threat hunting is essential for uncovering hidden or correlated threats.
+- Phishing investigations require cross-correlation between email, identity, and endpoint telemetry.
+- Effective SOC operations depend on automation, enrichment, and consistent alert tuning.
