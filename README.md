@@ -1,15 +1,15 @@
 # SOC Threat Hunting with Microsoft Sentinel
 
-## Objective:
+## 🎯 Objective:
 The SOC Threat Hunting with Microsoft Sentinel project documents my participation in a mini project within the 30-Day MyDFIR Microsoft Challenge. The objective was to build and configure a Microsoft Sentinel environment, perform threat hunting activities, develop KQL queries, create security dashboards, and investigate a phishing incident. Through this project, I aimed to strengthen my SOC analyst skills by working with Microsoft security technologies and simulating real-world security monitoring and incident response activities.
 
-## Project Overview:
+## 📊 Project Overview:
 This project focuses on deploying and configuring a Microsoft Sentinel environment within Microsoft Azure and using it to investigate security events and phishing-related activity.
 
-## Lab Setup:
+## 🖥️ Lab Setup:
 <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/064808a1-ffdb-4cc8-b125-cb78a1eedc51" />
 
-### Tools Used:
+### 🧰 Tools Used:
 - Microsoft Azure 
 - Microsoft Sentinel 
 - Log Analytics Workspace 
@@ -18,7 +18,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Microsoft Sentinel Workbooks 
 - AbuseIPDB
 
-### Skill Developed:
+### 🛡️ Skill Developed:
 - SIEM deployment and configuration
 - Threat hunting
 - Log analysis
@@ -28,7 +28,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Incident investigation
 - Phishing analysis
 
-### Key Deliverables:
+### 📁 Key Deliverables:
 - Microsoft Sentinel deployment
 - Custom workbook/dashboard creation
 - Detection rule development
@@ -36,7 +36,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Phishing investigation report
 - Incident creation and management
 
-## Steps Performed:
+## 🔍 Steps Performed:
 - Created Azure resources including: 
   - Resource Group
   - Log Analytics Workspace
@@ -60,7 +60,6 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="691" height="264" alt="image" src="https://github.com/user-attachments/assets/96517f56-2665-4ca4-8607-930a36b54324" />
 <img width="691" height="240" alt="image" src="https://github.com/user-attachments/assets/9e4bc1bc-a288-48d8-a219-7b11f668fe3d" />
 
-
 - Created a custom Sentinel Workbook containing: 
    - Activity Volume
    - Top 5 Failed User Logins 
@@ -83,7 +82,6 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="749" height="413" alt="image" src="https://github.com/user-attachments/assets/44746922-2fa1-4d4f-9bb0-4982e590cd41" />
 <img width="750" height="408" alt="image" src="https://github.com/user-attachments/assets/65103eb7-8425-4c45-85ea-32c971982e3c" />
 <img width="749" height="414" alt="image" src="https://github.com/user-attachments/assets/b3e3b924-5344-4078-9c11-06d6079ab9f5" />
-
 
 #### Key Findings:
 - A phishing email successfully bypassed email controls despite:
@@ -109,7 +107,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Automate threat intelligence enrichment using Sentinel playbooks.
 - Create automated incident response workflows for phishing detections.
 
-## Investigation Report:
+## 🚨 Investigation Report:
 
 #### Phishing Email Investigation:
 A phishing email impersonating SharePoint was delivered to an executive mailbox despite multiple authentication failures and a phishing verdict.
@@ -147,14 +145,14 @@ A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-not
 - WHY: Likely aimed at credential theft or delivering malware to compromise the CEO’s system.
 - HOW: Email passed through because the security gateway was likely not configured to block or quarantine such threats.
 
-#### Recommendations:
+#### 💡 Recommendations:
 - Use Threat Intelligence to verify sender IPs/domains; in this case, 185.220.101.55 was confirmed malicious.
 - Delete the identified phishing email and configure email security controls to automatically delete or quarantine similar phishing emails in the future.
 - Enable domain similarity protection to detect spoofed or look‑alike domains.
 - Search the organization for any other emails from 185.220.101.55 or sh4repoint-pkwork.xyz.
 - Conduct targeted phishing awareness training focused on identifying Microsoft 365 and SharePoint impersonation emails, recognizing typosquatted domains, verifying unexpected file-sharing requests, avoiding suspicious links and attachments, promptly reporting phishing attempts, and understanding the risks of credential theft, malware, and business email compromise (BEC).
 
-## Project Summary:
+## 📑 Project Summary:
 By completing this project, I can now:
 - Deploy and configure Microsoft Sentinel.
 - Connect Microsoft Defender XDR data sources.
@@ -164,5 +162,5 @@ By completing this project, I can now:
 - Investigate phishing incidents using log data and threat intelligence.
 - Use bookmarks and incidents to support SOC workflows.
 
-## Most Impactful Learning Experience:
+## 🧠 Most Impactful Learning Experience:
 The phishing investigation provided the most realistic SOC experience by combining threat hunting, log analysis, threat intelligence validation, incident creation, and remediation recommendations into a single workflow.
