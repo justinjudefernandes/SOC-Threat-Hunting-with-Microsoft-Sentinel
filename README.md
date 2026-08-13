@@ -19,6 +19,15 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Microsoft Sentinel Workbooks 
 - AbuseIPDB
 
+#### 🛠️ Capabilities Demonstrated:
+- Integrated Microsoft Sentinel with Microsoft Defender XDR for centralized security monitoring.
+- Developed KQL queries for threat hunting and security event investigation.
+- Built Sentinel workbooks to visualize authentication, activity, and phishing-related telemetry.
+- Developed detection logic for excessive failed authentication attempts.
+- Investigated a phishing email that bypassed existing email security controls.
+- Converted investigation findings into a tracked security incident.
+- Applied threat intelligence and email telemetry to support phishing analysis.
+
 ### 📁 Key Deliverables:
 - Microsoft Sentinel deployment
 - Custom workbook/dashboard creation
@@ -83,18 +92,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - The sender domain used typosquatting techniques to impersonate Microsoft SharePoint. 
 - The sender IP had a malicious reputation according to threat intelligence sources.
 
-#### 🛠️ Capabilities Demonstrated:
-
-- Integrated Microsoft Sentinel with Microsoft Defender XDR for centralized security monitoring.
-- Developed KQL queries for threat hunting and security event investigation.
-- Built Sentinel workbooks to visualize authentication, activity, and phishing-related telemetry.
-- Developed detection logic for excessive failed authentication attempts.
-- Investigated a phishing email that bypassed existing email security controls.
-- Converted investigation findings into a tracked security incident.
-- Applied threat intelligence and email telemetry to support phishing analysis.
-
 #### 🏢 Production SOC Improvements:
-
 - Strengthen email filtering and anti-spoofing enforcement.
 - Implement automatic quarantine for high-confidence phishing detections.
 - Enable domain impersonation and lookalike-domain protection.
