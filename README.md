@@ -108,8 +108,6 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/65103eb7-8425-4c45-85ea-32c971982e3c" />
 <img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/b3e3b924-5344-4078-9c11-06d6079ab9f5" />
 
-## Phishing Incident Investigation & Findings
-
 ### 🕵️ Key Findings:
 - A phishing email successfully bypassed email controls despite:
    - SPF failure 
