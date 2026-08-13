@@ -101,10 +101,10 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 
 ## 🚨 Investigation Report:
 
-#### Phishing Email Investigation:
+### Phishing Email Investigation:
 A phishing email impersonating SharePoint was delivered to an executive mailbox despite multiple authentication failures and a phishing verdict.
 
-#### Query Used:
+### Query Used:
 ```KQL
 - MailGuard365_Threats_CL     
   | where ThreatVerdict contains "phish" and Direction == "Inbound"
@@ -113,7 +113,7 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 ```
 <img width="758" height="420" alt="image" src="https://github.com/user-attachments/assets/a788bad8-b715-4eff-b256-0f427dfbb744" />
 
-#### Indicators Identified:
+### Indicators Identified:
 - IP: 185.220.101.55
 - Domain: sh4repoint-pkwork[.]xyz
 - Recipient: ceo@pkwork.onmicrosoft.com
