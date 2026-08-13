@@ -19,16 +19,6 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Microsoft Sentinel Workbooks 
 - AbuseIPDB
 
-### 🛠️ Capabilities Demonstrated
-
-- Integrated Microsoft Sentinel with Microsoft Defender XDR for centralized security monitoring.
-- Developed KQL queries for threat hunting and security event investigation.
-- Built Sentinel workbooks to visualize authentication, activity, and phishing-related telemetry.
-- Developed detection logic for excessive failed authentication attempts.
-- Investigated a phishing email that bypassed existing email security controls.
-- Converted investigation findings into a tracked security incident.
-- Applied threat intelligence and email telemetry to support phishing analysis.
-
 ### 📁 Key Deliverables:
 - Microsoft Sentinel deployment
 - Custom workbook/dashboard creation
@@ -93,20 +83,23 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - The sender domain used typosquatting techniques to impersonate Microsoft SharePoint. 
 - The sender IP had a malicious reputation according to threat intelligence sources.
 
-#### What I Learned:
-- How Microsoft Sentinel integrates with Microsoft Defender XDR.
-- How to build effective KQL queries for threat hunting.
-- How workbooks improve visibility into security data.
-- How detection rules automate security monitoring.
-- How phishing campaigns can bypass security controls when policies are not properly configured.
-- How bookmarks and incidents support SOC investigations.
+#### 🛠️ Capabilities Demonstrated:
 
-#### What I Would Do Differently in a Production SOC:
-- Enable stricter email filtering and anti-spoofing policies.
-- Configure automatic quarantine actions for high-confidence phishing emails.
-- Implement domain similarity protection.
-- Automate threat intelligence enrichment using Sentinel playbooks.
-- Create automated incident response workflows for phishing detections.
+- Integrated Microsoft Sentinel with Microsoft Defender XDR for centralized security monitoring.
+- Developed KQL queries for threat hunting and security event investigation.
+- Built Sentinel workbooks to visualize authentication, activity, and phishing-related telemetry.
+- Developed detection logic for excessive failed authentication attempts.
+- Investigated a phishing email that bypassed existing email security controls.
+- Converted investigation findings into a tracked security incident.
+- Applied threat intelligence and email telemetry to support phishing analysis.
+
+## 🏢 Production SOC Improvements:
+
+- Strengthen email filtering and anti-spoofing enforcement.
+- Implement automatic quarantine for high-confidence phishing detections.
+- Enable domain impersonation and lookalike-domain protection.
+- Automate threat intelligence enrichment through Sentinel playbooks.
+- Develop automated phishing triage and response workflows.
 
 ## 🚨 Investigation Report:
 
