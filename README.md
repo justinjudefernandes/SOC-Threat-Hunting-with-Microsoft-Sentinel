@@ -41,12 +41,15 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
   - Resource Group
   - Log Analytics Workspace
   - Microsoft Sentinel
-<img width="807" height="455" alt="image" src="https://github.com/user-attachments/assets/b8613e4d-36e6-41a9-baa9-aff1d880788a" />
-<img width="800" height="437" alt="image" src="https://github.com/user-attachments/assets/41c15be4-35b3-4c92-9f79-c7c6d9417fb7" />
-<img width="804" height="439" alt="image" src="https://github.com/user-attachments/assets/0dad3ae2-c41b-46ce-b9ed-2565f6cf9f0b" />
+ 
+📌 Refer to the below screenshots: (left to right)
+
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/b8613e4d-36e6-41a9-baa9-aff1d880788a" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/41c15be4-35b3-4c92-9f79-c7c6d9417fb7" />
+<img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/0dad3ae2-c41b-46ce-b9ed-2565f6cf9f0b" />
 
 - Deployed the Microsoft Sentinel Training Lab solution.
-<img width="707" height="386" alt="image" src="https://github.com/user-attachments/assets/7a0cae76-8002-49e1-8dd1-79677f96b14d" />
+<img width="785" height="450" alt="image" src="https://github.com/user-attachments/assets/7a0cae76-8002-49e1-8dd1-79677f96b14d" />
 
 - Connected Microsoft Defender XDR to Microsoft Sentinel.
 <img width="703" height="392" alt="image" src="https://github.com/user-attachments/assets/e3ca776d-1fb0-43de-a66d-60213ac72d34" />
