@@ -10,7 +10,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 ## 🏗️ Infrastructure Deployment:
 <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/064808a1-ffdb-4cc8-b125-cb78a1eedc51" />
 
-### 🧰 Tools Used:
+## 🧰 Tools Used:
 - Microsoft Azure 
 - Microsoft Sentinel 
 - Log Analytics Workspace 
@@ -19,7 +19,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Microsoft Sentinel Workbooks 
 - AbuseIPDB
 
-#### 🛠️ Capabilities Demonstrated:
+## 🛠️ Capabilities Demonstrated:
 - Integrated Microsoft Sentinel with Microsoft Defender XDR for centralized security monitoring.
 - Developed KQL queries for threat hunting and security event investigation.
 - Built Sentinel workbooks to visualize authentication, activity, and phishing-related telemetry.
@@ -28,7 +28,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Converted investigation findings into a tracked security incident.
 - Applied threat intelligence and email telemetry to support phishing analysis.
 
-### 📁 Key Deliverables:
+## 📁 Key Deliverables:
 - Microsoft Sentinel deployment
 - Custom workbook/dashboard creation
 - Detection rule development
