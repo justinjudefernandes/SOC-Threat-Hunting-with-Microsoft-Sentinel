@@ -59,8 +59,8 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="703" height="392" alt="image" src="https://github.com/user-attachments/assets/e3ca776d-1fb0-43de-a66d-60213ac72d34" />
-<img width="703" height="361" alt="image" src="https://github.com/user-attachments/assets/1fe6353e-235d-407e-85b8-0f84a551088f" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/e3ca776d-1fb0-43de-a66d-60213ac72d34" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/1fe6353e-235d-407e-85b8-0f84a551088f" />
 
 4. Developed KQL queries to: 
    - Identify malicious sender domains
