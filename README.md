@@ -93,7 +93,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Converted investigation findings into a tracked security incident.
 - Applied threat intelligence and email telemetry to support phishing analysis.
 
-## 🏢 Production SOC Improvements:
+#### 🏢 Production SOC Improvements:
 
 - Strengthen email filtering and anti-spoofing enforcement.
 - Implement automatic quarantine for high-confidence phishing detections.
