@@ -133,7 +133,7 @@ A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-not
 - WHO: Malicious sender IP 185[.]220[.]101[.]55 (100% abuse on AbuseIPDB).
 - WHAT: Phishing email from sharepoint-notify@sh4repoint-pkwork[.]xyz containing a typosquatted URL and the attachment Q4‑Board‑Meeting‑Agenda.docx.
 - WHEN: Sent on 2026‑06‑11 07:17:42 UTC and delivered despite failing email security checks.
-- WHERE: Targeted ceo@pkwork.onmicrosoft.com with subject “SharePoint: Board meeting documents shared with you.”  
+- WHERE: Targeted ceo@pkwork[.]onmicrosoft[.]com with subject “SharePoint: Board meeting documents shared with you.”  
 - WHY: Likely aimed at credential theft or delivering malware to compromise the CEO’s system.
 - HOW: Email passed through because the security gateway was likely not configured to block or quarantine such threats.
 
