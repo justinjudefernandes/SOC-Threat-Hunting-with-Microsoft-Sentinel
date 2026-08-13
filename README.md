@@ -19,14 +19,14 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Microsoft Sentinel Workbooks 
 - AbuseIPDB
 
-### 🛡️ Skill Developed:
+### 🛡️ Capabilities Demonstrated
 - SIEM deployment and configuration
 - Threat hunting
-- Log analysis
-- KQL query development
+- Security event analysis
+- KQL query and detection development
 - Security monitoring
-- Dashboard creation
-- Incident investigation
+- Security dashboard development
+- Incident investigation and management
 - Phishing analysis
 
 ### 📁 Key Deliverables:
