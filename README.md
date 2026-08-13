@@ -19,15 +19,15 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Microsoft Sentinel Workbooks 
 - AbuseIPDB
 
-### 🛡️ Capabilities Demonstrated
-- SIEM deployment and configuration
-- Threat hunting
-- Security event analysis
-- KQL query and detection development
-- Security monitoring
-- Security dashboard development
-- Incident investigation and management
-- Phishing analysis
+### 🛠️ Capabilities Demonstrated
+
+- Integrated Microsoft Sentinel with Microsoft Defender XDR for centralized security monitoring.
+- Developed KQL queries for threat hunting and security event investigation.
+- Built Sentinel workbooks to visualize authentication, activity, and phishing-related telemetry.
+- Developed detection logic for excessive failed authentication attempts.
+- Investigated a phishing email that bypassed existing email security controls.
+- Converted investigation findings into a tracked security incident.
+- Applied threat intelligence and email telemetry to support phishing analysis.
 
 ### 📁 Key Deliverables:
 - Microsoft Sentinel deployment
