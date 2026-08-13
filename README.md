@@ -83,7 +83,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="750" height="408" alt="image" src="https://github.com/user-attachments/assets/65103eb7-8425-4c45-85ea-32c971982e3c" />
 <img width="749" height="414" alt="image" src="https://github.com/user-attachments/assets/b3e3b924-5344-4078-9c11-06d6079ab9f5" />
 
-#### Key Findings:
+### 🕵️ Key Findings:
 - A phishing email successfully bypassed email controls despite:
    - SPF failure 
    - DMARC failure 
@@ -92,7 +92,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - The sender domain used typosquatting techniques to impersonate Microsoft SharePoint. 
 - The sender IP had a malicious reputation according to threat intelligence sources.
 
-#### 🏢 Production SOC Improvements:
+### 🏢 Production SOC Improvements:
 - Strengthen email filtering and anti-spoofing enforcement.
 - Implement automatic quarantine for high-confidence phishing detections.
 - Enable domain impersonation and lookalike-domain protection.
@@ -123,13 +123,13 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 - Email Authentication: SPF Fail | DKIM None | DMARC Fail
 - Delivery Status: Allowed
 
-#### Investigation:
+### 📋 Investigation:
 A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-notify@h4repoint-pkwork[.]xyz, originating from the malicious IP 185.220.101.55 (100% abuse on AbuseIPDB). The message included a typosquatted URL (hxxp[://]sh4repoint-pkwork[.]xyz/download/board-agenda) and a Word attachment (Q4-Board-Meeting-Agenda.docx). Email authentication checks failed (SPF/DMARC failed, DKIM none), yet the email was still delivered despite a phishing threat score of 93. An investigation is ongoing to determine whether the link or attachment was accessed and to assess any potential data exposure.
 
 <img width="501" height="428" alt="image" src="https://github.com/user-attachments/assets/b2b77daa-7009-497a-8ff9-1a268660d5fc" />
 <img width="1239" height="647" alt="image" src="https://github.com/user-attachments/assets/92f4a39a-9506-452d-a243-0b2f7fe7a7b9" />
 
-#### Triage (5W1H Analysis):
+### 🧐 Triage (5W & 1H):
 - WHO: Malicious sender IP 185.220.101.55 (100% abuse on AbuseIPDB).
 - WHAT: Phishing email from sharepoint-notify@sh4repoint-pkwork[.]xyz containing a typosquatted URL and the attachment Q4‑Board‑Meeting‑Agenda.docx.
 - WHEN: Sent on 2026‑06‑11 07:17:42 UTC and delivered despite failing email security checks.
