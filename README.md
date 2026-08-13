@@ -138,7 +138,7 @@ A phishing email impersonating SharePoint was delivered to an executive mailbox 
 ```
 <img width="785" height="450" alt="image" src="https://github.com/user-attachments/assets/a788bad8-b715-4eff-b256-0f427dfbb744" />
 
-### Indicators Identified:
+### ⚠️ Indicators of Compromise (IOCs):
 - IP: 185[.]220[.]101[.]55
 - Domain: sh4repoint-pkwork[.]xyz
 - Recipient: ceo@pkwork[.]onmicrosoft[.]com
