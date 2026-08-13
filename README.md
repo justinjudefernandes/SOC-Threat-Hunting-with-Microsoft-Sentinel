@@ -108,7 +108,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/65103eb7-8425-4c45-85ea-32c971982e3c" />
 <img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/b3e3b924-5344-4078-9c11-06d6079ab9f5" />
 
-### 🕵️ Key Findings:
+#### 🕵️ Key Findings:
 - A phishing email successfully bypassed email controls despite:
    - SPF failure 
    - DMARC failure 
@@ -117,7 +117,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - The sender domain used typosquatting techniques to impersonate Microsoft SharePoint. 
 - The sender IP had a malicious reputation according to threat intelligence sources.
 
-### 🏢 Production SOC Improvements:
+#### 🏢 Production SOC Improvements:
 - Strengthen email filtering and anti-spoofing enforcement.
 - Implement automatic quarantine for high-confidence phishing detections.
 - Enable domain impersonation and lookalike-domain protection.
