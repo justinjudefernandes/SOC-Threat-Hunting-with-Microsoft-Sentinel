@@ -7,7 +7,7 @@ Implement and configure a Microsoft Sentinel environment to demonstrate SIEM ope
 ## 📊 Project Overview:
 This project focuses on deploying and configuring a Microsoft Sentinel environment within Microsoft Azure and using it to investigate security events and phishing-related activity.
 
-## 🖥️ Lab Setup:
+## 🏗️ Infrastructure Deployment:
 <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/064808a1-ffdb-4cc8-b125-cb78a1eedc51" />
 
 ### 🧰 Tools Used:
