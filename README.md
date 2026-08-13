@@ -2,6 +2,7 @@
 
 ## 🎯 Objective:
 Implement and configure a Microsoft Sentinel environment to demonstrate SIEM operations, KQL-based detection, threat hunting, security visualization, and phishing incident investigation using Microsoft security telemetry.
+> **Context:** Completed as part of the 30-Day MyDFIR Microsoft Challenge.
 
 ## 📊 Project Overview:
 This project focuses on deploying and configuring a Microsoft Sentinel environment within Microsoft Azure and using it to investigate security events and phishing-related activity.
