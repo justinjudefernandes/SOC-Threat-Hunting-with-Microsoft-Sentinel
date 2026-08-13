@@ -48,6 +48,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/41c15be4-35b3-4c92-9f79-c7c6d9417fb7" />
 <img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/0dad3ae2-c41b-46ce-b9ed-2565f6cf9f0b" />
 
+
 2. Deployed the Microsoft Sentinel Training Lab solution.
 
 📌 Refer to the below screenshot:
