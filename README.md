@@ -152,7 +152,7 @@ A phishing email was received on 2026‑06‑11 07:17:42 UTC from sharepoint-not
 - Conduct targeted executive phishing simulations and awareness training.
 - Establish automated Sentinel playbooks for phishing triage and response.
 
-### 🧠 Lessons Learned:
+### 🧠 Security Operations Takeaways:
 - Email authentication failures do not guarantee blocking if policies are misconfigured.
 - Threat intelligence validation is critical for confirming malicious infrastructure.
 - Sentinel workbooks significantly improve visibility and SOC decision-making speed.
