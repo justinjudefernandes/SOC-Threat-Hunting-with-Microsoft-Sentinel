@@ -37,7 +37,7 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 - Incident creation and management
 
 ## 🔍 Steps Performed:
-- Created Azure resources including: 
+1. Created Azure resources including: 
   - Resource Group
   - Log Analytics Workspace
   - Microsoft Sentinel
@@ -48,40 +48,61 @@ This project focuses on deploying and configuring a Microsoft Sentinel environme
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/41c15be4-35b3-4c92-9f79-c7c6d9417fb7" />
 <img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/0dad3ae2-c41b-46ce-b9ed-2565f6cf9f0b" />
 
-- Deployed the Microsoft Sentinel Training Lab solution.
+2. Deployed the Microsoft Sentinel Training Lab solution.
+
+📌 Refer to the below screenshot:
+
 <img width="785" height="450" alt="image" src="https://github.com/user-attachments/assets/7a0cae76-8002-49e1-8dd1-79677f96b14d" />
 
-- Connected Microsoft Defender XDR to Microsoft Sentinel.
+3. Connected Microsoft Defender XDR to Microsoft Sentinel.
+
+📌 Refer to the below screenshots: (left to right)
+
 <img width="703" height="392" alt="image" src="https://github.com/user-attachments/assets/e3ca776d-1fb0-43de-a66d-60213ac72d34" />
 <img width="703" height="361" alt="image" src="https://github.com/user-attachments/assets/1fe6353e-235d-407e-85b8-0f84a551088f" />
 
-- Developed KQL queries to: 
+4. Developed KQL queries to: 
    - Identify malicious sender domains
    - Analyze Azure activity logs
    - Investigate error events
+
+📌 Refer to the below screenshots: (left to right)
+
 <img width="683" height="411" alt="image" src="https://github.com/user-attachments/assets/6b1b4b28-866e-49b2-a63d-1495c551a891" />
 <img width="691" height="264" alt="image" src="https://github.com/user-attachments/assets/96517f56-2665-4ca4-8607-930a36b54324" />
 <img width="691" height="240" alt="image" src="https://github.com/user-attachments/assets/9e4bc1bc-a288-48d8-a219-7b11f668fe3d" />
 
-- Created a custom Sentinel Workbook containing: 
+5. Created a custom Sentinel Workbook containing: 
    - Activity Volume
    - Top 5 Failed User Logins 
    - Malicious Sender Domains
    - Successful Activities
+
+📌 Refer to the below screenshots: (left to right)
+
 <img width="752" height="335" alt="image" src="https://github.com/user-attachments/assets/c27e33db-3878-4e83-8ef5-f4dbf229e7cf" />
 <img width="752" height="215" alt="image" src="https://github.com/user-attachments/assets/8be7fdfa-674a-49cf-9243-3e4438782f4b" />
 <img width="750" height="259" alt="image" src="https://github.com/user-attachments/assets/2aa9a5e9-e694-4a6f-99c0-8737cf53db0e" />
 <img width="749" height="270" alt="image" src="https://github.com/user-attachments/assets/6e9be7fc-8329-45be-a95d-13b9dafd8166" />
 
-- Created a detection rule to identify accounts with excessive failed logons using Event ID 4625:
+6. Created a detection rule to identify accounts with excessive failed logons using Event ID 4625:
+
+📌 Refer to the below screenshots: (left to right)
+
 <img width="752" height="419" alt="image" src="https://github.com/user-attachments/assets/f9123fa4-66f1-4b79-b928-5c72c3a839c0" />
 <img width="752" height="419" alt="image" src="https://github.com/user-attachments/assets/262fc0a0-8e10-46bd-8c31-30a0b5bc15b6" />
 <img width="752" height="419" alt="image" src="https://github.com/user-attachments/assets/f93c95cf-9e47-4cb0-a594-d530540b03fc" />
 
-- Investigated a phishing email that was marked as phishing but still allowed into the environment.
+7. Investigated a phishing email that was marked as phishing but still allowed into the environment.
+
+📌 Refer to the below screenshot:
+
 <img width="738" height="384" alt="image" src="https://github.com/user-attachments/assets/031e615b-4443-4c2c-bc6e-3e62d9a13b4a" />
 
-- Created bookmarks and converted findings into a security incident for further analysis.
+8. Created bookmarks and converted findings into a security incident for further analysis.
+
+📌 Refer to the below screenshots: (left to right)
+
 <img width="749" height="413" alt="image" src="https://github.com/user-attachments/assets/44746922-2fa1-4d4f-9bb0-4982e590cd41" />
 <img width="750" height="408" alt="image" src="https://github.com/user-attachments/assets/65103eb7-8425-4c45-85ea-32c971982e3c" />
 <img width="749" height="414" alt="image" src="https://github.com/user-attachments/assets/b3e3b924-5344-4078-9c11-06d6079ab9f5" />
